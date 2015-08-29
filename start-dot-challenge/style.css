@@ -1,0 +1,39 @@
+body {
+    background-color: #EEF;
+
+}
+
+div#dot {
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    background-color: red;
+    border: solid 4px blue;
+    box-shadow: .5em .5em 1em .2em #112;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5em;
+    margin-left: -5em;
+    cursor: pointer;
+}
+
+div#results {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    font-family: Chango;
+    font-size: 1.25em;
+    color: #009;
+    text-shadow: .1em .1em 1em black;
+    text-align: center;
+}
+
+div#results.blowPow {
+    height: 2em;
+    width: 2em;
+    color: yellow;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+
+}
