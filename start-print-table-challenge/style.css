@@ -1,0 +1,53 @@
+section {
+    width: 600px;
+    border: solid 1px green;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border: double 4px;
+    margin: 10px auto;
+}
+
+tr {
+    cursor: pointer;
+
+}
+
+table > caption {
+    text-align: right;
+    padding-right: 10px;
+    font-family: arial;
+    font-size: .7em;
+}
+
+th {
+    padding: 5px;
+    font-family: arial;
+    font-size: .8em;
+}
+
+table > thead {
+
+    background: #e2e2e2; /* Old browsers */ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2e2e2), color-stop(50%, #dbdbdb), color-stop(51%, #d1d1d1), color-stop(100%, #fefefe)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+    background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0); /* IE6-9 */
+
+}
+
+th:empty {
+    background: transparent;
+}
+
+tr.highlight {
+    background-color: yellow;
+    color: blue;
+}
