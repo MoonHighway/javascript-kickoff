@@ -24,8 +24,8 @@ Let's build a game card for a car bingo app.
    randomItem([2,6,4,7]);    // 2 or 6 or 4 or 7
 ```
 
-3. Code a loop that generates 5 row <div> elements and adds them to the <section>
-4. Create a nested loop that adds 5 col <div> elements ot each row
+3. Code a loop that generates 5 row div elements and adds them to the section
+4. Create a nested loop that adds 5 col div elements ot each row
 5. Randomly display one of the images as the cell background
-6. Add <span>free space</span> to the center cell
-7. Toggle Cell Clicks add <span class="chip"></span> to the innerHTML of clicked cells
+6. Add free space to the center cell
+7. Toggle Cell Clicks add span.chip to the innerHTML of clicked cells
