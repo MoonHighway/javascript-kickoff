@@ -1,7 +1,7 @@
 JavaScript Kickoff
 =============================
-This course introduces developers to the popular JavaScript Language.  In this course developers will isolate the 
-JavaScript core types in the browser to see how the javascript language differs from Java or other Object Oriented 
+This course introduces developers to the popular JavaScript Language. In this course, developers will isolate the 
+JavaScript core types in the browser to see how the JavaScript language differs from Java or other Object Oriented 
 languages.
 
 Topics
